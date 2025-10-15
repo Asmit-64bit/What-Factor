@@ -1,0 +1,570 @@
+{'character_name': 'Kyo Sohma', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Yuki Sohma', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shigure Sohma', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True 
+Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Haruhi Suzumiya', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kyon', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 
+'emotional_expression': 'Reserved'}
+{'character_name': 'Taichi Yagami', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Yamato Ishida', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Ash Ketchum', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Misty', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Brock', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Yugi Muto', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Seto Kaiba', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Kagome Higurashi', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Inuyasha', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Sesshomaru', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Naraku', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Usagi Tsukino', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Ami Mizuno', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Rei Hino', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Makoto Kino', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Minako Aino', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Mamoru Chiba', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shoyo Hinata', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Tobio Kageyama', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kei Tsukishima', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Toru Oikawa', 'problem_solving': 'Creative', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kenma Kozume', 'problem_solving': 'Analytical', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Tetsuro Kuroo', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kotaro Bokuto', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Keiji Akaashi', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Wakatoshi Ushijima', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Satori Tendo', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Eren Kruger', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Grisha Yeager', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 
+'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Carla Yeager', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Historia Reiss', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Ymir', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Reiner Braun', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Bertholdt Hoover', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Annie Leonhart', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'True 
+Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Porco Galliard', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Pieck Finger', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Gabi Braun', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Falco Grice', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Shogo Makishima', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kirito (Kazuto Kirigaya)', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Asuna Yuuki', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sora', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Shiro', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Faye Valentine', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Jet Black', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful 
+Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': "Sesshomaru's Mother", 'problem_solving': 'Strategic', 'ambition_level': 'Non-existent', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Shippo', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kikyo', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Miroku', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sango', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kagura', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kanna', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Yusuke Urameshi', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kazuma Kuwabara', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kurama', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Hiei', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Genkai', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Younger Toguro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Shinobu Sensui', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kenshiro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Raoh', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Toki', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Light Turner (Netflix)', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'L (Netflix)', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Ryuk (Netflix)', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'True 
+Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sōsuke Bōno', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Lisa', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Ponyo', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Chihiro Ogino', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Haku', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Yubaba', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'No-Face', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'San (Princess Mononoke)', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Ashitaka', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Lady Eboshi', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Jigo', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Nausicaä', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kushana', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Howl Jenkins Pendragon', 'problem_solving': 'Creative', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Sophie Hatter', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Calcifer', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Witch of the Waste', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Kiki', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Jiji', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Tombo Kopoli', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Arrietty Clock', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shō', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Jiro Horikoshi', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Naoko Satomi', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kaguya Ōtsutsuki', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Black Zetsu', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Isshiki Ōtsutsuki', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Boruto Uzumaki', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sarada Uchiha', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Mitsuki', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Kawaki', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Eida', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Daemon', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Code', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Tengen Uzui', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kyojuro Rengoku', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Akaza', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Doma', 'problem_solving': 'Creative', 'ambition_level': 'Non-existent', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kokushibo', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Yoriichi Tsugikuni', 'problem_solving': 'Intuitive', 'ambition_level': 'Non-existent', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Tatsumi', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Akame', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Esdeath', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Mine', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Lubbock', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sheele', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Bulat', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Leone', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Chelsea', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Seryu Ubiquitous', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Dr. Stylish', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Neutral 
+Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Wave', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 
+'emotional_expression': 'Expressive'}
+{'character_name': 'Kurome', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Subdued'}
+{'character_name': 'Run', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Bols', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Honest', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Syura', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Meliodas', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Elizabeth Liones', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Hawk', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Diane', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'King (Harlequin)', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Gowther', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Hendrickson', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Dreyfus', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Gilthunder', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Arthur Pendragon', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Zeldris', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Estarossa (Mael)', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Gray Fullbuster', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Natsu Dragneel', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Lucy Heartfilia', 'problem_solving': 'Creative', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Happy', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Juvia Lockser', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Gajeel Redfox', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Wendy Marvell', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Carla', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Makarov Dreyar', 'problem_solving': 'Strategic', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Zeref Dragneel', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 
+'Chaotic Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Acnologia', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Irene Belserion', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'August', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Brandish μ', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Dimaria Yesta', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Invel Yura', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'God Serena', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic 
+Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Larcade Dragneel', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Subdued'}
+{'character_name': 'Mavis Vermillion', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Claire (Claymore)', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Teresa of the Faint Smile', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Priscilla', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Raki', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Miria', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Jean', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 
+'emotional_expression': 'Stoic'}
+{'character_name': 'Ophelia', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Riful of the West', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Isley of the North', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Dauf', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Galatea', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Rin Okumura', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Yukio Okumura', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shiemi Moriyama', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Ryuji Suguro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Izumo Kamiki', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Konekomaru Miwa', 'problem_solving': 'Analytical', 'ambition_level': 'Low', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Shura Kirigakure', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Mephisto Pheles', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Amaimon', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Subdued'}
+Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Angelo Lagusa (Avilio Bruno)', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Nero Vanetti', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Corteo', 'problem_solving': 'Analytical', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Vanno Clemente', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Fango', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Don Vincent Vanetti', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Ganzo Alary', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Strega', 'problem_solving': 'Strategic', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Frate Vanetti', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Lacrima', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Barbero', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Del Toro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
+PS C:\Users\admin\Desktop\coding> & C:\Users\admin\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/admin/Desktop/coding/python/what factor"
+{'character_name': 'Katsuki Bakugo', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 
+'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'All Might', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Ochaco Uraraka', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Tenya Iida', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Tomura Shigaraki', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Dabi', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Himiko Toga', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Endeavor', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Hawks', 'problem_solving': 'Strategic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Mirio Togata', 'problem_solving': 'Intuitive', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Tamaki Amajiki', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Nejire Hado', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Eijiro Kirishima', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Mina Ashido', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kyoka Jiro', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Momo Yaoyorozu', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shota Aizawa', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Chisaki Kai (Overhaul)', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Denji', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Makima', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful 
+Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Aki Hayakawa', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Power', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Loid Forger', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Anya Forger', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Thorfinn Karlsefni', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Askeladd', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Canute', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful 
+Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Tanjiro Kamado', 'problem_solving': 'Intuitive', 'ambition_level': 'Very High', 'moral_alignment': 
+'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Zenitsu Agatsuma', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Inosuke Hashibira', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Giyu Tomioka', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Muzan Kibutsuji', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Yuji Itadori', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Megumi Fushiguro', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Kento Nanami', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Sukuna', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Ichigo Kurosaki', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Rukia Kuchiki', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Sosuke Aizen', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Byakuya Kuchiki', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Uryu Ishida', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Subaru Natsuki', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Rem', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Emilia', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shigeo Kageyama (Mob)', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Arataka Reigen', 'problem_solving': 'Creative', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Okabe Rintaro', 'problem_solving': 'Creative', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Shinji Ikari', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Misato Katsuragi', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Gendo Ikari', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Alucard', 'problem_solving': 'Impulsive', 'ambition_level': 'Non-existent', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Integra Hellsing', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Kenshin Himura', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Sanosuke Sagara', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Vash the Stampede', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Nicholas D. Wolfwood', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Johan Liebert', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Dr. Kenzo Tenma', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Joseph Joestar', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Jotaro Kujo', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Dio Brando', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Giorno Giovanna', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Simon', 'problem_solving': 'Intuitive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kamina', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Yoko Littner', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'C.C.', 'problem_solving': 'Strategic', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 
+'emotional_expression': 'Reserved'}
+{'character_name': 'Kallen Kozuki', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Suzaku Kururugi', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Tsunade', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Jiraiya', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Gaara', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Shikamaru Nara', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Rock Lee', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Pain (Nagato)', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Conan Edogawa', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kaito Kid', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Future Trunks', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Frieza', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Cell', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Piccolo', 'problem_solving': 'Strategic', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Sanji', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic 
+Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Usopp', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Franky', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Brook', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Jinbe', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Trafalgar Law', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Donquixote Doflamingo', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Charlotte Katakuri', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Alphonse Elric', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Winry Rockbell', 'problem_solving': 'Creative', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Scar', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'King Bradley', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Van Hohenheim', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Escanor', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Merlin', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Ban', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 
+'emotional_expression': 'Expressive'}
+{'character_name': 'Asta', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Yuno Grinberryall', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Yami Sukehiro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Noelle Silva', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Armin Arlert', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Zeke Yeager', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Genos', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'King', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 
+'emotional_expression': 'Subdued'}
+{'character_name': 'Tatsumaki', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Garou', 'problem_solving': 'Pragmatic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic 
+Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Kyoko Sakura', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Mami Tomoe', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Sayaka Miki', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Kyubey', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Bishamon', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Yato', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Megumin', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kazuma Satou', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Aqua', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Darkness (Lalatina)', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 
+'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Rimuru Tempest', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 
+'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Ainz Ooal Gown', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Senku Ishigami', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Tsukasa Shishio', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Misa Amane', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic 
+Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Near', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Mello', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Shinichi Izumi', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Lucy (Nyu)', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Crona', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Death the Kid', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Black Star', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Tohru Honda', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kyo Sohma', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Yuki Sohma', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shigure Sohma', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True 
+Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Haruhi Suzumiya', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kyon', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 
+'emotional_expression': 'Reserved'}
+{'character_name': 'Taichi Yagami', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Yamato Ishida', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Ash Ketchum', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Misty', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Brock', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Yugi Muto', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Seto Kaiba', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Kagome Higurashi', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Inuyasha', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Sesshomaru', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Naraku', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Usagi Tsukino', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Ami Mizuno', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Rei Hino', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Makoto Kino', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Minako Aino', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Mamoru Chiba', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shoyo Hinata', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Tobio Kageyama', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kei Tsukishima', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Toru Oikawa', 'problem_solving': 'Creative', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kenma Kozume', 'problem_solving': 'Analytical', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Tetsuro Kuroo', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kotaro Bokuto', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Keiji Akaashi', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Wakatoshi Ushijima', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Satori Tendo', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Eren Kruger', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Grisha Yeager', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 
+'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Carla Yeager', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Historia Reiss', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Ymir', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Reiner Braun', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Bertholdt Hoover', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Annie Leonhart', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'True 
+Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Porco Galliard', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Pieck Finger', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Gabi Braun', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Falco Grice', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Shogo Makishima', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kirito (Kazuto Kirigaya)', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Asuna Yuuki', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sora', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Shiro', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Faye Valentine', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Jet Black', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful 
+Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': "Sesshomaru's Mother", 'problem_solving': 'Strategic', 'ambition_level': 'Non-existent', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Shippo', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kikyo', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Miroku', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sango', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kagura', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kanna', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Yusuke Urameshi', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kazuma Kuwabara', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kurama', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Hiei', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Genkai', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Younger Toguro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Shinobu Sensui', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kenshiro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Raoh', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Toki', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Light Turner (Netflix)', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'L (Netflix)', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Ryuk (Netflix)', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'True 
+Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sōsuke Bōno', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Lisa', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Ponyo', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Chihiro Ogino', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Haku', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Yubaba', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'No-Face', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'San (Princess Mononoke)', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Ashitaka', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Lady Eboshi', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Jigo', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Nausicaä', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kushana', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Howl Jenkins Pendragon', 'problem_solving': 'Creative', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Sophie Hatter', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Calcifer', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Witch of the Waste', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Kiki', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Jiji', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Tombo Kopoli', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Arrietty Clock', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shō', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Jiro Horikoshi', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Naoko Satomi', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Kaguya Ōtsutsuki', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Black Zetsu', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Isshiki Ōtsutsuki', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Boruto Uzumaki', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sarada Uchiha', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Mitsuki', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Kawaki', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Eida', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Daemon', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Code', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Tengen Uzui', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic 
+Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kyojuro Rengoku', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Akaza', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Doma', 'problem_solving': 'Creative', 'ambition_level': 'Non-existent', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Kokushibo', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Yoriichi Tsugikuni', 'problem_solving': 'Intuitive', 'ambition_level': 'Non-existent', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Tatsumi', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Akame', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Esdeath', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Mine', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Lubbock', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Sheele', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Bulat', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Leone', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Chelsea', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Seryu Ubiquitous', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Dr. Stylish', 'problem_solving': 'Creative', 'ambition_level': 'High', 'moral_alignment': 'Neutral 
+Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Wave', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 
+'emotional_expression': 'Expressive'}
+{'character_name': 'Kurome', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Subdued'}
+{'character_name': 'Run', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Bols', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Honest', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Syura', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Meliodas', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Elizabeth Liones', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Hawk', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Diane', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'King (Harlequin)', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Gowther', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Hendrickson', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Dreyfus', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Gilthunder', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Arthur Pendragon', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Zeldris', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Estarossa (Mael)', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Gray Fullbuster', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Natsu Dragneel', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Lucy Heartfilia', 'problem_solving': 'Creative', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Happy', 'problem_solving': 'Impulsive', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Juvia Lockser', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Gajeel Redfox', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Wendy Marvell', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Carla', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Makarov Dreyar', 'problem_solving': 'Strategic', 'ambition_level': 'Low', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Zeref Dragneel', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 
+'Chaotic Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Acnologia', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Irene Belserion', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'August', 'problem_solving': 'Analytical', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Brandish μ', 'problem_solving': 'Pragmatic', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Dimaria Yesta', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Invel Yura', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful 
+Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'God Serena', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic 
+Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Larcade Dragneel', 'problem_solving': 'Intuitive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Subdued'}
+{'character_name': 'Mavis Vermillion', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Claire (Claymore)', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Stoic'}
+{'character_name': 'Teresa of the Faint Smile', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Priscilla', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Raki', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Expressive'}
+{'character_name': 'Miria', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Jean', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 
+'emotional_expression': 'Stoic'}
+{'character_name': 'Ophelia', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Riful of the West', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Isley of the North', 'problem_solving': 'Strategic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Dauf', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Expressive'}
+{'character_name': 'Galatea', 'problem_solving': 'Analytical', 'ambition_level': 'Medium', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Rin Okumura', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Yukio Okumura', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Shiemi Moriyama', 'problem_solving': 'Intuitive', 'ambition_level': 'Medium', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Ryuji Suguro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Izumo Kamiki', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Good', 'emotional_expression': 'Volatile'}
+{'character_name': 'Konekomaru Miwa', 'problem_solving': 'Analytical', 'ambition_level': 'Low', 'moral_alignment': 'Lawful Good', 'emotional_expression': 'Subdued'}
+{'character_name': 'Shura Kirigakure', 'problem_solving': 'Pragmatic', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Mephisto Pheles', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Amaimon', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Subdued'}
+{'character_name': 'Satan', 'problem_solving': 'Impulsive', 'ambition_level': 'Very High', 'moral_alignment': 'Chaotic 
+Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Angelo Lagusa (Avilio Bruno)', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Stoic'}
+{'character_name': 'Nero Vanetti', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Expressive'}
+{'character_name': 'Corteo', 'problem_solving': 'Analytical', 'ambition_level': 'Low', 'moral_alignment': 'Neutral Good', 'emotional_expression': 'Reserved'}
+{'character_name': 'Vanno Clemente', 'problem_solving': 'Impulsive', 'ambition_level': 'Medium', 'moral_alignment': 'Chaotic Neutral', 'emotional_expression': 'Volatile'}
+{'character_name': 'Fango', 'problem_solving': 'Impulsive', 'ambition_level': 'High', 'moral_alignment': 'Chaotic Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Don Vincent Vanetti', 'problem_solving': 'Strategic', 'ambition_level': 'Very High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Stoic'}
+{'character_name': 'Ganzo Alary', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Neutral Evil', 'emotional_expression': 'Reserved'}
+{'character_name': 'Strega', 'problem_solving': 'Strategic', 'ambition_level': 'Medium', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Frate Vanetti', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Evil', 'emotional_expression': 'Volatile'}
+{'character_name': 'Lacrima', 'problem_solving': 'Intuitive', 'ambition_level': 'Low', 'moral_alignment': 'True Neutral', 'emotional_expression': 'Subdued'}
+{'character_name': 'Barbero', 'problem_solving': 'Analytical', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Reserved'}
+{'character_name': 'Del Toro', 'problem_solving': 'Pragmatic', 'ambition_level': 'High', 'moral_alignment': 'Lawful Neutral', 'emotional_expression': 'Stoic'}
