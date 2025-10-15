@@ -3,9 +3,620 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anime Character Predictor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tensorflow/4.11.0/tf.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 700px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        .status {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background: #e3f2fd;
+            color: #1976d2;
+            font-weight: 500;
+        }
+
+        .progress {
+            text-align: center;
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .question-container {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+
+        .question-text {
+            font-size: 1.1em;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option {
+            padding: 15px 20px;
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        .navigation-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:active:not(:disabled) {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .result {
+            margin-top: 30px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 12px;
+            color: white;
+            text-align: center;
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result h2 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+
+        .anime-title {
+            font-size: 1.1em;
+            opacity: 0.95;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .confidence {
+            font-size: 1em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .character-info {
+            margin-top: 15px;
+            font-size: 0.95em;
+            line-height: 1.6;
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <h1>🎌 Anime Character Predictor</h1>
+        <p class="subtitle">Answer these questions to discover which anime character you are!</p>
+        
+        <div class="status" id="status">Training ML Model...</div>
+        
+        <div class="progress" id="progress"></div>
+
+        <form id="predictForm">
+            <div class="question-container" data-question-index="0">
+                <div class="question-text">1. What's your hair color preference?</div>
+                <div class="options" data-question="q1">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Spiky blonde hair</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Black/dark hair</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Orange/red hair</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">Bald/shaved head</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="1" style="display: none;">
+                <div class="question-text">2. What's your fighting style?</div>
+                <div class="options" data-question="q2">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Hand-to-hand combat with energy attacks</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Sword fighting</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Elemental powers and jutsu</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">Overwhelming physical strength</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="2" style="display: none;">
+                <div class="question-text">3. What's your signature trait?</div>
+                <div class="options" data-question="q3">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Always eating and energetic</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Cool and collected demeanor</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Loud and never gives up</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">Expressionless but deadly</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="3" style="display: none;">
+                <div class="question-text">4. What's your goal?</div>
+                <div class="options" data-question="q4">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Become the strongest warrior</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Protect my village and seek revenge</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Become Hokage and be recognized</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">Find a worthy opponent</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="4" style="display: none;">
+                <div class="question-text">5. How do you power up?</div>
+                <div class="options" data-question="q5">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Super Saiyan transformation</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Unlock special eyes (Sharingan)</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Befriend the Nine-Tails</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">Already at maximum power</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="5" style="display: none;">
+                <div class="question-text">6. What's your series genre?</div>
+                <div class="options" data-question="q6">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Classic martial arts action</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Ninja adventure with dark themes</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Ninja adventure with friendship</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">Parody/comedy action</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="6" style="display: none;">
+                <div class="question-text">7. What's your iconic move?</div>
+                <div class="options" data-question="q7">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Kamehameha energy wave</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Chidori/Lightning blade</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Rasengan spiral attack</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">One punch</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="7" style="display: none;">
+                <div class="question-text">8. What's your favorite food?</div>
+                <div class="options" data-question="q8">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Any food in large quantities</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Tomatoes and onigiri</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Ramen (especially Ichiraku)</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">Simple, budget-friendly meals</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="8" style="display: none;">
+                <div class="question-text">9. What's your relationship with your rival?</div>
+                <div class="options" data-question="q9">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Friendly competition that makes us both stronger</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Complex - they're my best friend and rival</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">I want to bring them back to the right path</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">I'm searching for someone worthy</div>
+                </div>
+            </div>
+
+            <div class="question-container" data-question-index="9" style="display: none;">
+                <div class="question-text">10. How do you handle defeat?</div>
+                <div class="options" data-question="q10">
+                    <div class="option" data-value="1,0,0,0,0,0,0,0">Get excited and train harder</div>
+                    <div class="option" data-value="0,1,0,0,0,0,0,0">Analyze what went wrong strategically</div>
+                    <div class="option" data-value="0,0,1,0,0,0,0,0">Never give up, no matter what</div>
+                    <div class="option" data-value="0,0,0,0,1,0,0,0">It's never happened to me</div>
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button type="button" class="btn" id="prevBtn" style="display: none;">← Previous</button>
+                <button type="button" class="btn" id="nextBtn" disabled>Next →</button>
+                <button type="submit" class="btn" id="submitBtn" style="display: none;" disabled>✨ Reveal My Character!</button>
+            </div>
+        </form>
+
+        <div class="result" id="result">
+            <h2 id="characterName"></h2>
+            <div class="anime-title" id="animeTitle"></div>
+            <p class="confidence" id="confidence"></p>
+            <div class="character-info" id="characterInfo"></div>
+        </div>
+    </div>
+
+    <script>
+        const characters = {
+            'Son Goku': {
+                anime: 'Dragon Ball Z',
+                description: 'A Saiyan raised on Earth who constantly seeks stronger opponents. Pure-hearted, loves fighting and food. Can transform into Super Saiyan forms.',
+                traits: 'Spiky black/blonde hair, orange gi, tail (sometimes), always hungry'
+            },
+            'Sasuke Uchiha': {
+                anime: 'Naruto',
+                description: 'Last survivor of the Uchiha clan, seeking revenge and power. Cool, talented, and possesses the Sharingan eye technique.',
+                traits: 'Black spiky hair, pale skin, Sharingan eyes, lightning-style jutsu'
+            },
+            'Naruto Uzumaki': {
+                anime: 'Naruto',
+                description: 'A hyperactive ninja who dreams of becoming Hokage. Never gives up, values friendship, and hosts the Nine-Tails fox spirit.',
+                traits: 'Spiky blonde hair, orange jumpsuit, whisker marks, believes in never giving up'
+            },
+            'Monkey D. Luffy': {
+                anime: 'One Piece',
+                description: 'A rubber-bodied pirate captain aiming to become King of the Pirates. Carefree, brave, and fiercely loyal to his crew.',
+                traits: 'Black hair, straw hat, red vest, stretchy rubber body, loves meat'
+            },
+            'Saitama': {
+                anime: 'One Punch Man',
+                description: 'A hero who can defeat any opponent with a single punch. Bald, expressionless, and just wants to find a worthy opponent.',
+                traits: 'Bald head, simple yellow suit with red gloves and cape, overwhelmingly powerful'
+            },
+            'Ichigo Kurosaki': {
+                anime: 'Bleach',
+                description: 'A substitute Soul Reaper with the ability to see ghosts. Orange-haired, hot-headed but caring, wields a massive sword.',
+                traits: 'Spiky orange hair, black Soul Reaper robes, giant sword Zangetsu'
+            },
+            'Light Yagami': {
+                anime: 'Death Note',
+                description: 'A genius student who finds a notebook that can kill anyone whose name is written in it. Brilliant, strategic, and morally complex.',
+                traits: 'Brown hair, school uniform, genius intellect, manipulative strategist'
+            },
+            'Edward Elric': {
+                anime: 'Fullmetal Alchemist',
+                description: 'A young alchemist searching for the Philosopher\'s Stone. Short-tempered about his height, skilled in alchemy, has automail limbs.',
+                traits: 'Blonde hair in braid, red coat, metal arm and leg, hates being called short'
+            }
+        };
+
+        let model;
+        let isModelReady = false;
+        const answers = {};
+        let currentQuestion = 0;
+        const totalQuestions = 10;
+
+        // Navigation functions
+        function showQuestion(index) {
+            const questions = document.querySelectorAll('.question-container');
+            questions.forEach((q, i) => {
+                q.style.display = i === index ? 'block' : 'none';
+            });
+            
+            currentQuestion = index;
+            updateNavigationButtons();
+            updateProgress();
+        }
+
+        function updateNavigationButtons() {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const submitBtn = document.getElementById('submitBtn');
+            
+            // Show/hide previous button
+            prevBtn.style.display = currentQuestion > 0 ? 'block' : 'none';
+            
+            // Check if current question is answered
+            const currentQ = `q${currentQuestion + 1}`;
+            const isAnswered = answers[currentQ] !== undefined;
+            
+            // Handle last question
+            if (currentQuestion === totalQuestions - 1) {
+                nextBtn.style.display = 'none';
+                submitBtn.style.display = 'block';
+                submitBtn.disabled = !isAnswered || Object.keys(answers).length < totalQuestions;
+            } else {
+                nextBtn.style.display = 'block';
+                submitBtn.style.display = 'none';
+                nextBtn.disabled = !isAnswered;
+            }
+        }
+
+        function updateProgress() {
+            const answeredQuestions = Object.keys(answers).length;
+            const progress = document.getElementById('progress');
+            
+            progress.textContent = `Question ${currentQuestion + 1} of ${totalQuestions} (${answeredQuestions} answered)`;
+            
+            updateNavigationButtons();
+        }
+
+        // Previous button
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            if (currentQuestion > 0) {
+                showQuestion(currentQuestion - 1);
+            }
+        });
+
+        // Next button
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            if (currentQuestion < totalQuestions - 1) {
+                showQuestion(currentQuestion + 1);
+            }
+        });
+
+        // Option selection
+        document.querySelectorAll('.option').forEach(option => {
+            option.addEventListener('click', function() {
+                const container = this.closest('.options');
+                const question = container.dataset.question;
+                
+                container.querySelectorAll('.option').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                
+                this.classList.add('selected');
+                answers[question] = this.dataset.value;
+                
+                updateProgress();
+            });
+        });
+
+        async function createModel() {
+            const model = tf.sequential();
+            
+            model.add(tf.layers.dense({
+                units: 24,
+                activation: 'relu',
+                inputShape: [8]
+            }));
+            
+            model.add(tf.layers.dropout({rate: 0.3}));
+            
+            model.add(tf.layers.dense({
+                units: 16,
+                activation: 'relu'
+            }));
+            
+            model.add(tf.layers.dense({
+                units: 8,
+                activation: 'softmax'
+            }));
+
+            model.compile({
+                optimizer: tf.train.adam(0.01),
+                loss: 'categoricalCrossentropy',
+                metrics: ['accuracy']
+            });
+
+            return model;
+        }
+
+        function generateTrainingData() {
+            const data = [];
+            const labels = [];
+
+            // Goku - index 0
+            for (let i = 0; i < 40; i++) {
+                const base = [0.9, 0.1, 0.1, 0.1, 0.1, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(0);
+            }
+
+            // Sasuke - index 1
+            for (let i = 0; i < 40; i++) {
+                const base = [0.1, 0.9, 0.1, 0.1, 0.1, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(1);
+            }
+
+            // Naruto - index 2
+            for (let i = 0; i < 40; i++) {
+                const base = [0.2, 0.2, 0.9, 0.1, 0.1, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(2);
+            }
+
+            // Luffy - index 3
+            for (let i = 0; i < 40; i++) {
+                const base = [0.2, 0.1, 0.2, 0.9, 0.1, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(3);
+            }
+
+            // Saitama - index 4
+            for (let i = 0; i < 40; i++) {
+                const base = [0.1, 0.1, 0.1, 0.1, 0.9, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(4);
+            }
+
+            // Ichigo - index 5
+            for (let i = 0; i < 40; i++) {
+                const base = [0.1, 0.2, 0.9, 0.2, 0.1, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(5);
+            }
+
+            // Light - index 6
+            for (let i = 0; i < 40; i++) {
+                const base = [0.1, 0.9, 0.1, 0.9, 0.1, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(6);
+            }
+
+            // Edward - index 7
+            for (let i = 0; i < 40; i++) {
+                const base = [0.2, 0.1, 0.8, 0.7, 0.1, 0, 0, 0];
+                data.push(base.map(v => v + (Math.random() - 0.5) * 0.2));
+                labels.push(7);
+            }
+
+            return {
+                data: tf.tensor2d(data),
+                labels: tf.oneHot(tf.tensor1d(labels, 'int32'), 8)
+            };
+        }
+
+        async function trainModel() {
+            document.getElementById('status').textContent = 'Training ML Model...';
+            
+            model = await createModel();
+            const {data, labels} = generateTrainingData();
+
+            await model.fit(data, labels, {
+                epochs: 60,
+                batchSize: 32,
+                shuffle: true,
+                validationSplit: 0.2,
+                verbose: 0
+            });
+
+            data.dispose();
+            labels.dispose();
+
+            isModelReady = true;
+            document.getElementById('status').textContent = '✓ Model Ready - Answer the Questions!';
+            document.getElementById('status').style.background = '#c8e6c9';
+            document.getElementById('status').style.color = '#2e7d32';
+        }
+
+        async function predict(features) {
+            const input = tf.tensor2d([features]);
+            const prediction = model.predict(input);
+            const probabilities = await prediction.data();
+            input.dispose();
+            prediction.dispose();
+
+            const maxIndex = probabilities.indexOf(Math.max(...probabilities));
+            const confidence = (probabilities[maxIndex] * 100).toFixed(1);
+
+            return {
+                character: Object.keys(characters)[maxIndex],
+                confidence: confidence
+            };
+        }
+
+        document.getElementById('predictForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            if (!isModelReady) {
+                alert('Model is still training, please wait...');
+                return;
+            }
+
+            if (Object.keys(answers).length < 10) {
+                alert('Please answer all questions!');
+                return;
+            }
+
+            // Sum up all answer vectors
+            const sumValues = [0, 0, 0, 0, 0, 0, 0, 0];
+            Object.values(answers).forEach(answer => {
+                const values = answer.split(',').map(Number);
+                values.forEach((val, idx) => {
+                    sumValues[idx] += val;
+                });
+            });
+
+            const features = sumValues;
+
+            const result = await predict(features);
+            const characterData = characters[result.character];
+
+            document.getElementById('characterName').textContent = result.character;
+            document.getElementById('animeTitle').textContent = `from ${characterData.anime}`;
+            document.getElementById('confidence').textContent = `Match Confidence: ${result.confidence}%`;
+            document.getElementById('characterInfo').innerHTML = 
+                `<strong>About:</strong> ${characterData.description}<br><br><strong>Characteristics:</strong> ${characterData.traits}`;
+            
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('result').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+
+        // Initialize
+        trainModel();
+        updateProgress();
+    </script>
 </body>
 </html>
